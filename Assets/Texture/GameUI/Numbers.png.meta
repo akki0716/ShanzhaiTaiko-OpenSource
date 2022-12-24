@@ -228,7 +228,7 @@ TextureImporter:
       213: 2185189748397985602
     second: silver_plus
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -248,6 +248,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -256,9 +258,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -279,10 +281,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -298,6 +304,42 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1896,6 +1938,82 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Score_1P_9: -6365401143867685144
+      1_hl: 8503978264742755358
+      gold_2: -5275974221471470513
+      rapid_5: -7934893104397779178
+      Score_2P_1: 575376729547221569
+      silver_7: 6575591767443388286
+      silver_5: -5328698265828735941
+      Score_3: -8065137392439791527
+      green_9: -4041150839422380063
+      gold_6: -407856595642065811
+      green_0: -6099873399732076034
+      silver_6: -3328627756623572771
+      gold_1: -6116963357262179218
+      green_2: 9026031593728629356
+      silver_1: 4659382536284025699
+      Score_1P_3: 3830084610276572288
+      Score_1P_5: -8285968982530739897
+      Score_2P_6: 8606905363325077130
+      Score_1P_2: 1922377572208238671
+      Score_1P_1: 23496126759382342
+      green_plus: 8120801884156348473
+      gold_5: 6281173559678341316
+      rapid_1: -3577869911531079323
+      Score_1P_0: -4220008932536918505
+      Score_1P_4: -1922990014468699414
+      green_8: -626583752828727610
+      Score_2P_4: -1971590571390646978
+      Score_2P_5: -9222932238840501135
+      gold_plus: 5241733544661527093
+      green_5: -9115078658481712775
+      Score_2: -7980772567291914239
+      gold_9: -4897505507605704354
+      silver_8: -7296377250126390226
+      gold_7: 7915915593761736627
+      gold_0: -6301429047446442448
+      Score_1P_7: 8887007554564224023
+      Score_2P_9: 3438274400169962731
+      silver_9: -8956393821199727084
+      green_1: 5479186271568450577
+      Score_5: -3543773047615977005
+      Score_2P_3: 245278715947390766
+      green_7: 8946618488502721258
+      Score_2P_0: -1927102448937780273
+      silver_0: 7081527322082503550
+      green_4: -1175015036488048624
+      rapid_4: -4347376143320074989
+      Score_8: -4530020050610102847
+      Score_1: -7569662823521131118
+      gold_3: 8413302526757980907
+      green_6: -6400503832151274853
+      Score_4: -193910508628765343
+      Score_1P_6: 6169809720605555799
+      Score_1P_8: 959504839247610294
+      Score_0: 6904219460542411274
+      Score_2P_2: 8164837842325188225
+      Score_7: 2499335183670999675
+      silver_3: 370147333482582324
+      rapid_6: -9159605819715556113
+      rapid_8: 1650840910694145505
+      rapid_7: 5977289810402990935
+      gold_8: 2986952904727189007
+      Score_2P_7: 5772552126743516360
+      gold_4: -5533810949261644772
+      rapid_3: 5123813575787558289
+      silver_4: 4239709528366505980
+      rapid_0: -7886788141097163555
+      silver_plus: 2185189748397985602
+      Score_6: -7769441184537840955
+      Score_2P_8: 4855660258899380281
+      rapid_2: -3962499496210088390
+      0_hl: 6545331691850311502
+      silver_2: -4263342324323489582
+      green_3: 7627655090455946188
+      rapid_9: -934240104762378407
+      Score_9: 7380444500729306404
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

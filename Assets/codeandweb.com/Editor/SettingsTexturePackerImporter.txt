@@ -1,5 +1,4 @@
 version: 2
-importPivots: 1
 tpsheetFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 - Assets/Resources/Texture/Difficulties.tpsheet
@@ -37,7 +36,6 @@ tpsheetFileNames:
 - Assets/Texture/Notes/Notes.tpsheet
 - Assets/Texture/Numbers/ChatperLineNumbers.tpsheet
 - Assets/Texture/Ps4/others.tpsheet
-- Assets/Texture/RankingDojo/course.tpsheet
 - Assets/Texture/RapitHitEffect/RapitHitEffect.tpsheet
 - Assets/Texture/Result/result_notice.tpsheet
 - Assets/Texture/Runner/Runner.tpsheet
@@ -89,7 +87,6 @@ textureFileNames:
 - Assets/Texture/Notes/Notes.png
 - Assets/Texture/Numbers/ChatperLineNumbers.png
 - Assets/Texture/Ps4/others.png
-- Assets/Texture/RankingDojo/Course.png
 - Assets/Texture/RapitHitEffect/RapitHitEffect.png
 - Assets/Texture/Result/result_notice.png
 - Assets/Texture/Runner/Runner.png
@@ -106,7 +103,6 @@ textureFileNames:
 - Assets/Texture/Vertical/vertical_pics.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
-- 
 - 
 - 
 - 

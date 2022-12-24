@@ -152,7 +152,7 @@ public class SettingLoader : MonoBehaviour
             }
 #endif
 
-            //加载曲包
+            //曲データをロード
             Thread thread = new Thread(LoadSongs);
             thread.IsBackground = true;
             thread.Start();
@@ -504,6 +504,9 @@ public class SettingLoader : MonoBehaviour
         skin_pack[pack_name] = pack;
     }
 
+    /// <summary>
+    /// 曲の読み込み開始処理
+    /// </summary>
     private void LoadSongs()
     {
         string path = string.Empty;

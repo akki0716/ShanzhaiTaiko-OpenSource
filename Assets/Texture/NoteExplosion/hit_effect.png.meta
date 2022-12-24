@@ -186,7 +186,7 @@ TextureImporter:
       213: 5123813575787558289
     second: rapid_3
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -206,6 +206,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -214,9 +216,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -237,10 +239,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -268,6 +274,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
     maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1572,6 +1602,68 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      big_perfect_04: 656897693160688845
+      big_perfect_10: -5370089061743777493
+      big_perfect_13: 7417817868448158129
+      good_04: -3799191218337114781
+      big_perfect_02: -4703724215002843837
+      good_07: 6959629975594984728
+      perfect_02: -8955377024898101751
+      perfect_05: 2485988216291795518
+      good_08: 5513967211124286593
+      big_perfect_12: 5245425458009876849
+      good_01: 627164593776203025
+      good_02: 8151175489915333996
+      big_perfect_07: 8470474723165401105
+      good_05: -232126684441726106
+      good_06: 7672407399226035276
+      big_perfect_08: -4326612277343528032
+      lane_hit_04: 2231354648841482724
+      big_perfect_11: 7243861416038982224
+      big_perfect_05: 6648019309293542173
+      rapid_1: -3577869911531079323
+      big_good_03: -7276602049650006403
+      big_perfect_17: -8969911504844502116
+      big_good_13: -5102652728898816084
+      big_good_01: 8678301047767066246
+      big_perfect_19: 4438227350263089089
+      perfect_00: -2627999119275237768
+      big_good_08: -4524111403760938775
+      perfect_03: -1818907547863263186
+      big_good_10: 1558775754177107141
+      big_perfect_14: -6821766366741893348
+      big_good_02: -5475406801931705152
+      big_good_05: -3430724459834577148
+      big_perfect_15: -2937766511298614875
+      hit_effect_multi_0_17_01: -298291752300046035
+      perfect_06: 5911231852856778528
+      big_perfect_16: -4858389757638612029
+      big_good_09: -6155102396481081361
+      big_perfect_18: -1128658971770623678
+      big_good_07: 3719743370411743856
+      big_perfect_03: -7126416000523097704
+      big_good_11: -820473864222454057
+      perfect_04: 7794494693557824876
+      big_perfect_06: 6533427722773162810
+      lane_hit_02: 1487055963624327950
+      lane_hit_03: -9138290640672015632
+      big_good_14: 1428754348742771533
+      good_03: 348908895378931593
+      perfect_01: -9023279971056127195
+      perfect_08: 8567820575189252422
+      big_good_04: -9190690742154050929
+      big_good_06: -6450507570490774247
+      perfect_07: -3134607409088037475
+      big_good_15: 7876441681211943131
+      big_perfect_01: -5143659067834230502
+      hit_effect_multi_0_18: 1163621770837653116
+      rapid_3: 5123813575787558289
+      lane_hit_01: 1311920562647337845
+      big_good_12: -6896642647030756315
+      rapid_2: -3962499496210088390
+      hit_effect_multi_0_17_02: -6942193959928184081
+      big_perfect_09: 6413513004725629306
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -141,7 +141,7 @@ TextureImporter:
       213: 2216136527021976303
     second: SENote-hd_13
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -161,6 +161,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -169,9 +171,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -192,10 +194,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -211,6 +217,42 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1200,6 +1242,53 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      ka2: -6469363076000914061
+      ballon_front3: -6912032921075838495
+      SENote-hd_01: 3643296585120449274
+      hammer1: 7036194154111112777
+      SENote-hd_09: -56327818536875880
+      don2: 6690083819393584183
+      big_rapid: 3581022575181546206
+      SENote-hd_10: -1720995508104925881
+      ballon_front: -4483920499974047842
+      big_ka2: -6035081399890601718
+      SENote-hd_07: 5724856430417498164
+      SENote-hd_13: 2216136527021976303
+      hammer3: 5240914049619295889
+      big_ka1: 3577144577871438546
+      late: 5010467998135649379
+      ballon_tail: 3540072343397559147
+      big_rapid_tail: -2401357085380412899
+      SENote-hd_05: 4380040628810742244
+      ballon_front2: -3116555291430345895
+      SENote-hd_08: -9205671974626367497
+      big_don1: 4215271884431099369
+      SENote-hd_04: 6327015948353892339
+      front: 4767218137718297435
+      lost: -4291511530528459800
+      ballon_tail2: -2862706829833353512
+      front3: 3736234820456555155
+      SENote-hd_03: 4951263776464729491
+      SENote-hd_11: -7272510318948247136
+      rapid_tail: 749903509687326011
+      don1: 2844506097806945185
+      ka3: -861431097909823368
+      SENote-hd_06: -1724422595189500550
+      SENote-hd_12: -1883543657507768219
+      big_front: 6151512887547105323
+      fast: -7172822125391535517
+      perfect: 7103124058787412077
+      front2: -1530526167495605536
+      judge: 6036601404779743608
+      SENote-hd_02: -7481985456375197604
+      big_front2: 8553846509616544312
+      don3: -1235042371241462060
+      hammer2: 5363087314342110793
+      big_don2: -8809158690792780092
+      miss: 3318720286323118824
+      ka1: -2378716014583519823
+      rapid: -2161933700993386559
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

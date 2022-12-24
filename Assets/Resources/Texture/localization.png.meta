@@ -270,7 +270,7 @@ TextureImporter:
       213: 1527544928990919012
     second: unclear_jp
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -287,9 +287,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -298,9 +301,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -321,10 +324,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -340,6 +348,42 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -2232,9 +2276,98 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      combo_kr: -3167479652005278138
+      normal_kr: 7593400299470434009
+      normal_jp: -7363660697354068794
+      bad_jp: -408268200085995973
+      lv_down_en: -626967149361223504
+      lv_down_kr: 7716660601513285488
+      lv_up_jp: 7270231381146052427
+      bad_kr: -4781308432341905472
+      oni_kr: -6968051119453985110
+      lv_up_cn: 934127789288572439
+      Text_Master_cn: 881247338675813623
+      good_cn: 125157702429297032
+      lv_up_kr: -1312213326085727459
+      unclear_en: 9107579057669703010
+      drumroll_en: -3929921023894753798
+      edit_cn: -2096298646399160226
+      hard_kr: 2490049225429036970
+      perfect_es: -1330560215871042268
+      drumroll_cn: 1960487368860328859
+      easy_kr: -1377515858193225407
+      unclear_jp: 1527544928990919012
+      lv_down_cn: 4328885384314986579
+      Text_Master_es: 6553044277995087125
+      bad_en: 4636731273110624207
+      drumroll_jp: 2623924062234752812
+      Text_Expert_es: -1510450088287240628
+      normal_en: 677647620084071165
+      drumroll_es: 5602317531413277275
+      easy_cn: -4941814840915283359
+      lv_up_es: 3827109466643773371
+      edit_kr: 4590479462625418969
+      normal_cn: -4374903820469329699
+      combo1_en: 6041653369134997094
+      oni_jp: 8564820246670713771
+      good_es: -1710447904296938610
+      Text_Expert_cn: 100567268351724398
+      Text_Normal_cn: 3128350208729445651
+      bad_cn: -8449460232399030135
+      edit_en: 3998346878464555050
+      Text_Master_en: 4334321920988697432
+      lv_down_es: -8561430330093157492
+      hard_cn: 828169846318680170
+      hard_en: 6240382042369481608
+      combo2_jp: 6481787110524708637
+      combo2_es: -2207450896704465845
+      hard_es: 6559132418665105877
+      lv_up_en: -865896408018292841
+      unclear_cn: 5776963805796553117
+      Text_Expert_en: -2132537176615549349
+      clear_cn: 6598642374664227481
+      normal_es: -256963069185848121
+      combo1_cn: 1250609716570099902
+      combo2_en: 3562712833138747273
+      clear_es: 3094765260248845313
+      unclear_es: -5234819930476641296
+      hard_jp: -5341376444290008989
+      easy_es: -4895646894797530082
+      lv_down_jp: -6443488736454117688
+      good_jp: -6413635180804572517
+      combo_cn: 7855498987356991297
+      perfect_en: -3864415274551866516
+      combo1_jp: 4788610249920398182
+      edit_es: -2873759943734997295
+      Text_Normal_jp: 8580240836761677107
+      combo1_es: -275077143049826197
+      Text_Normal_es: 4071475809549286337
+      easy_jp: -5502738247112585822
+      oni_cn: 3267404665385238739
+      easy_en: 9006024384923750688
+      clear_en: 5777218599681672353
+      bad_es: 2241293766823560948
+      oni_es: 3675013445025224519
+      combo_jp: -7877527418085521891
+      good_kr: -1057560362636879595
+      combo1_kr: 7883318730904838117
+      combo_es: -6469488433670548700
+      combo2_cn: -6259294599024374042
+      Text_Expert_jp: 6649373017524487148
+      perfect_jp: -1974589437634881273
+      clear_jp: 8338882808190734100
+      good_en: -756176706416311290
+      combo2_kr: 720983165812902745
+      perfect_cn: -385947772477925839
+      Text_Master_jp: -4622544670886484726
+      Text_Normal_en: -5231016596603523581
+      perfect_kr: 4650391889109517238
+      edit_jp: -2284485689678684588
+      oni_en: -3558096321349352539
+      combo_en: -9182302204097517283
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

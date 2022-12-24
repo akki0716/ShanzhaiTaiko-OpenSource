@@ -159,7 +159,7 @@ TextureImporter:
       213: 4966882571796280060
     second: roll_tail_jp
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -176,9 +176,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -187,9 +190,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -210,10 +213,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -241,6 +249,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1356,9 +1388,61 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      don1_en: 6229149783315279303
+      roll1_cn: -950924759572909904
+      roll2_jp: 3626310396787600142
+      don2_cn: -1109960058628409196
+      don4_es: 614359112803694814
+      ka2_es: -249336793070216378
+      roll2_cn: 8479461829820290501
+      ka1_cn: 827168774735877858
+      hammer_cn: 4329965890452296206
+      roll_body_en: 3251430016481668008
+      don4_jp: 4050280549553762603
+      ka2_en: -8900310478739615142
+      don2_jp: 2883487451025915701
+      ka3_cn: -926160546876197115
+      roll_body_es: 9091266767778101353
+      balloon_es: -26002966958023466
+      hammer_jp: -9169120971648673
+      roll_body_cn: -9049477374788932232
+      balloon_jp: 927982034283208491
+      ka3_en: -9214259680473289130
+      don1_cn: 37630312596100795
+      balloon_cn: -5776215095833194768
+      hammer_en: 8784337999595510975
+      ka1_es: 3382234128557535709
+      balloon_en: -3042937001079527317
+      roll_tail_cn: -4085520581001409115
+      ka1_en: -7200705851317828963
+      don1_jp: -1414685745011452111
+      ka3_jp: 7808892728014247186
+      don3_es: 6830624175793338007
+      roll2_es: 181771162348943281
+      don3_jp: -7506292369405678437
+      roll_tail_es: -1385658433118897101
+      roll1_en: 5209939302851607604
+      ka3_es: 4945829334546436018
+      don2_en: -6238378228058773984
+      roll_body_jp: -3556425345975043934
+      don3_cn: 4903750122387261026
+      don1_es: 4008512503095755102
+      hammer_es: 3060469504611500210
+      roll1_jp: -2848168283827472942
+      roll_tail_jp: 4966882571796280060
+      ka1_jp: -3819524074299000431
+      ka2_jp: 5463528464801571761
+      ka2_cn: 7240720803694313229
+      don2_es: 5398331237372689785
+      don3_en: 5075579688267081333
+      roll1_es: -5693022892902041792
+      roll2_en: -6941310779182222574
+      don4_cn: 4502948672152928222
+      roll_tail_en: -8037275788649460230
+      don4_en: 4291538690720500221
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

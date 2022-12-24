@@ -171,7 +171,7 @@ TextureImporter:
       213: -5654906075523026774
     second: toy_light4
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -188,9 +188,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -199,9 +202,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -222,10 +225,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -241,6 +249,42 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1440,9 +1484,65 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      toy8: 2481185147346206187
+      char4: -517567697698911122
+      char8: 1724030626115541578
+      paper1: 6432604427998073585
+      toy19: 4483090014163116130
+      toy7: 3646318978681819080
+      paper2: -6643264340508671881
+      toy17: -4829099592474748831
+      fan12: 652251466679089555
+      toy16: 2595381152680920263
+      char2: -6045083622836137314
+      Dbg: -1648473526711809363
+      toy_light1: -5575280297371281863
+      char7: -4127939620176210802
+      toy4: 7196643236929914058
+      toy10: -3606417543016666569
+      toy15: 1693360035757266896
+      toy6: 4809959877302588089
+      paper5: -8859589452730614401
+      fan7: 4793211799130631476
+      char12: -4671557960517185543
+      char11: 4054485153603811287
+      toy14: -5538234862104801530
+      fan4: -2196719209745770990
+      toy11: -6228433239441759119
+      paper3: -8677630836215050674
+      char15: 5877824192707671796
+      char5: -6001409868068216060
+      toy2: 5122627207222235931
+      toy18: 1345592545447870604
+      toy1: -8277140855153888866
+      fan9: -9069996322628309473
+      fan1: -2749599355477004747
+      fan10: 5461345076386981617
+      paper4: -3042018083185607843
+      toy_light4: -5654906075523026774
+      fan11: -5063964470620673117
+      char1: -5444115988312099539
+      fan6: -6840061427260011044
+      toy13: 8120147628715311423
+      fan3: -2194902654827584000
+      toy_light2: 5694217124050154860
+      char13: 5764019704261789429
+      char14: -3390532702094572321
+      fan2: 3018626775968246365
+      toy5: 3809659412236584261
+      char6: 5114799913624050736
+      toy12: -767729531998206860
+      toy9: 886771336956287122
+      fan5: -3655425982905975009
+      light: -174701075010476169
+      toy_light3: 4363234993034293916
+      toy3: 5596718112895483613
+      char3: 4954321184531853851
+      char10: -2429141770772737671
+      fan8: -7516394406004736334
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -84,7 +84,7 @@ TextureImporter:
       213: -2540047882525586577
     second: renda_baton_0_0_0_0
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -104,6 +104,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -112,9 +114,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -135,12 +137,65 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -731,6 +786,34 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      renda_a_01_03: -3609974989633025809
+      renda_a_02_04: -498262302460419573
+      renda_a_01_04: -3857415913771787420
+      renda_a_02_01: -450188219551953435
+      renda_a_02_02: 6301063094224912754
+      renda_a_03_0_0_0_0: -1612082334740806324
+      renda_b_14_07: -6218678198465853965
+      renda_b_14_01: -4213311379058400008
+      renda_b_14_04: 219030648972120523
+      renda_b_10_0_0_0_0_03: 7438220497721764269
+      renda_b_10_0_0_0_0_04: -1944526425220541921
+      renda_a_01_01: 7118478551112838491
+      renda_b_14_06: -3736516134972139343
+      renda_a_02_06: 848229602738093840
+      renda_b_14_05: 7711771775324992918
+      renda_b_14_08: 4695728013867741117
+      renda_b_14_09: 2516755615160592319
+      renda_b_14_10: -7575158183333256262
+      renda_a_01_05: 1696067892585670640
+      renda_b_10_0_0_0_0_02: 1328921987826411420
+      renda_a_01_06: -7154875553174477246
+      renda_b_14_03: 1279470691931382980
+      renda_a_01_02: 5889354170206469511
+      renda_b_14_02: 6230556260716588153
+      renda_a_02_05: 1625383812969257756
+      renda_a_02_03: -6959171998709406765
+      renda_baton_0_0_0_0: -2540047882525586577
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

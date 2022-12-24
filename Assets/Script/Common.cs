@@ -570,10 +570,10 @@ namespace CommonClass
     public class FindFile
     {
         /// <summary>
-        /// 得某文件夹下所有的文件
+        /// フォルダー内のすべてのファイルを取得する
         /// </summary>
-        /// <param name="directory">文件夹名称</param>
-        /// <param name="pattern">搜寻指类型</param>
+        /// <param name="path">フォルダ名</param>
+        /// <param name="extName">拡張子名</param>
         /// <returns></returns>
         public static List<FileInfo> GetFiles(string path, string extName, List<FileInfo> lst)
         {

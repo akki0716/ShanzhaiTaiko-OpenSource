@@ -93,7 +93,7 @@ TextureImporter:
       213: 3802091392676919337
     second: star
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -113,6 +113,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -121,9 +123,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -144,12 +146,65 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -803,6 +858,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      action_kusudama_multi_4 19: 5857297809972930305
+      action_kusudama_multi_5 9: -1125723124496795056
+      action_kusudama_multi_5 5: 3486847611259059610
+      action_kusudama_multi_4 08: -7547954793535136139
+      action_kusudama_multi_5 4: 2393941120021336125
+      action_kusudama_multi_4 13: -5416192736890634439
+      action_kusudama_multi_4 07: 1818517964634014485
+      action_kusudama_multi_4 18: -1707716894248607613
+      action_kusudama_multi_4 11: -5467431966616903332
+      action_kusudama_multi_4 10: 609287426678232222
+      action_kusudama_multi_5 1: 4060315646482574828
+      action_kusudama_multi_4 15: 2928770404796782194
+      action_kusudama_multi_4 12: 4224442788315868347
+      action_kusudama_multi_4 09: 9081855242520237157
+      star: 3802091392676919337
+      action_kusudama_multi_5 6: -3795951161292385758
+      action_kusudama_multi_5 7: -823444207401869688
+      action_kusudama_multi_4 17: 7762896858349517899
+      action_kusudama_multi_4 16: 3715857162882647083
+      action_kusudama_multi_4 20: -6086788624452870933
+      action_kusudama_multi_4 24: -5802549179272210429
+      action_kusudama_multi_5 8: 2125079182579597865
+      action_kusudama_multi_4 21: 5553567467946874841
+      action_kusudama_multi_4 14: 8029762447406048910
+      action_kusudama_multi_5 2: -5058644119225692800
+      note: 4119490362307273273
+      action_kusudama_multi_5 3: 6219714784178900731
+      action_kusudama_multi_5 0: -7798098421625264887
+      action_kusudama_multi_4 22: -7602805368672808605
+      action_kusudama_multi_4 23: 3019748815367732440
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

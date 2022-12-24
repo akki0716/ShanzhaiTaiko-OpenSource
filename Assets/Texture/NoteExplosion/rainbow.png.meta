@@ -48,7 +48,7 @@ TextureImporter:
       213: 1888387507637877395
     second: rainbow_mask
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -68,6 +68,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -76,9 +78,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -99,9 +101,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -129,6 +136,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -467,6 +498,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      onp_kiseki_katsu_1p_0_0_0_2-3: -5485813955945536088
+      onp_kiseki_katsu_1p_0_0_0_1-2: 7920138804471045515
+      rainbow: -3518609893074896825
+      onp_kiseki_katsu_1p_0_0_0_1-5: 2166018684018445406
+      onp_kiseki_katsu_1p_0_0_0_1-8: -4486239509732005594
+      onp_kiseki_katsu_1p_0_0_0_2-2: -2867567657824700436
+      onp_kiseki_katsu_1p_0_0_0_1-0: -2351532141463122994
+      onp_kiseki_katsu_1p_0_0_0_2-0: 5338957842335782016
+      onp_kiseki_katsu_1p_0_0_0_2-1: -3498037636926885
+      onp_kiseki_katsu_1p_0_0_0_1-7: -8060343934431508721
+      onp_kiseki_katsu_1p_0_0_0_1-1: 2955507560524393795
+      onp_kiseki_katsu_1p_0_0_0_1-6: 4557623010456374793
+      onp_kiseki_katsu_1p_0_0_0_1-3: 2426471639528778201
+      onp_kiseki_katsu_1p_0_0_0_1-4: -968404229248632782
+      rainbow_mask: 1888387507637877395
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

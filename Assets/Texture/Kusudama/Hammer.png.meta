@@ -123,7 +123,7 @@ TextureImporter:
       213: -749342103230565009
     second: yu
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -140,9 +140,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -151,9 +154,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -174,9 +177,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -204,6 +213,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
     maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1067,9 +1100,49 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      arrow: -2043017983467968750
+      c s 04: 8014333002945358826
+      hongzhu: -3870168376213480180
+      sui1: 8793733414086631139
+      action_kusudama_0_25: -1312168297335855058
+      c s 05: 765084208553460495
+      c s 08: -1863252119431242742
+      bell: 1210468120907054213
+      don 0 25: 1782340220702902569
+      c s 15: -8228661363224076304
+      c s 13: 7713155437312459696
+      c s 10: -9080919611666309793
+      dami: 6907003300358575670
+      c s 06: -6072315196670545975
+      qianbi: -4328400849769800640
+      c s 12: 3159320619374312013
+      hulu: -1729961201285660263
+      c s 14: 5425837794760380129
+      chuihei: 4920797597273786431
+      pai01: -8018931478810889119
+      c s 09: -861163548776912488
+      don 0 29: -6406903460532654181
+      c s 01: -442166043340385885
+      don 0 30: -6786589680069420720
+      c s 03: 2082488098923506610
+      sui2: 5707889111156538113
+      ychui: 6661035542493020839
+      glow1: -7109832148787539626
+      hzhu: 2546608856882199280
+      yu: -749342103230565009
+      jchui: 3502501244761054398
+      chuilan: -7682357902515292584
+      c s 02: -1655198317892647617
+      c s 07: -1963518365658242913
+      c s 11: 7498714226196238588
+      pai02: 3511249794550305800
+      sui02: -7139589511400440908
+      shine: -6947079265940005655
+      sui01: 1288770856212248238
+      guang: 8466313568807970553
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

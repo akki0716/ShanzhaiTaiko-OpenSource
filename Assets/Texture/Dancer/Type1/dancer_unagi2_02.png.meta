@@ -66,7 +66,7 @@ TextureImporter:
       213: -4507505510086661053
     second: dancer_unagi2_2 21
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -86,6 +86,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -94,9 +96,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -117,9 +119,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -135,6 +142,42 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
     maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
@@ -599,6 +642,28 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      dancer_unagi2_2 15: 5106417000446586423
+      dancer_unagi2_2 13: -6701741410602703673
+      dancer_unagi2_2 06: -1749419322558233460
+      dancer_unagi2_2 07: 2804591946134670987
+      dancer_unagi2_2 17: -8264732443930356480
+      dancer_unagi2_2 03: -6782417545473860872
+      dancer_unagi2_2 04: 1824373685052930239
+      dancer_unagi2_2 01: -813094725518823515
+      dancer_unagi2_2 10: -8448220699157430863
+      dancer_unagi2_2 20: -972306932334800321
+      dancer_unagi2_2 19: 4043388940856033399
+      dancer_unagi2_2 09: -4032937739908149209
+      dancer_unagi2_2 05: -7106911303037774779
+      dancer_unagi2_2 14: -7952057562174225619
+      dancer_unagi2_2 11: 4885248775421706881
+      dancer_unagi2_2 12: 8508354327811326999
+      dancer_unagi2_2 02: 3943542565438574625
+      dancer_unagi2_2 08: 4644579688910161935
+      dancer_unagi2_2 16: -7912629444834747411
+      dancer_unagi2_2 18: 4980159115976453394
+      dancer_unagi2_2 21: -4507505510086661053
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

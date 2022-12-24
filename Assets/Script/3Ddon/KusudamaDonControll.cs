@@ -29,7 +29,7 @@ public class KusudamaDonControll : MonoBehaviour
         Animator[] animators = don.GetComponentsInChildren<Animator>(true);
         controll = animators[0];
         don_Animator = animators[1];
-        controll.keepAnimatorControllerStateOnDisable = false;
+        controll.keepAnimatorStateOnDisable = false;
 
         GameObject pre = Hammer_pre;
         if ((Score)GameSetting.Config.ScoreMode == Score.Nijiiro) pre = Kusudama_pre;
@@ -45,7 +45,7 @@ public class KusudamaDonControll : MonoBehaviour
             Animator[] animators2 = don2.GetComponentsInChildren<Animator>(true);
             controll2 = animators2[0];
             don2_Animator = animators2[1];
-            controll2.keepAnimatorControllerStateOnDisable = false;
+            controll2.keepAnimatorStateOnDisable = false;
         }
 
         if (OutlineEffect != null)
