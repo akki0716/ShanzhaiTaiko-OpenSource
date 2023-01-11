@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{DD01ACC3-CA95-7280-4BB2-1F07FDF7044E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hierarchy2.Editor", "Hierarchy2.Editor.csproj", "{0C3C9DF3-776E-7884-D184-4B1B1E82C1B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hierarchy2.Runtime", "Hierarchy2.Runtime.csproj", "{EE4355F2-C65D-DDF0-2597-574EFF98320F}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityFx.Outline", "UnityFx.Outline.csproj", "{80AD6D6A-D5B5-7A42-793F-89BA2C936B22}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityFx.Outline.Editor", "UnityFx.Outline.Editor.csproj", "{8C8B68CA-9840-7F56-7332-35F24A81B76C}"
@@ -29,6 +33,14 @@ Global
 		{DD01ACC3-CA95-7280-4BB2-1F07FDF7044E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD01ACC3-CA95-7280-4BB2-1F07FDF7044E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD01ACC3-CA95-7280-4BB2-1F07FDF7044E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C3C9DF3-776E-7884-D184-4B1B1E82C1B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C3C9DF3-776E-7884-D184-4B1B1E82C1B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C3C9DF3-776E-7884-D184-4B1B1E82C1B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C3C9DF3-776E-7884-D184-4B1B1E82C1B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE4355F2-C65D-DDF0-2597-574EFF98320F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE4355F2-C65D-DDF0-2597-574EFF98320F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE4355F2-C65D-DDF0-2597-574EFF98320F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE4355F2-C65D-DDF0-2597-574EFF98320F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{80AD6D6A-D5B5-7A42-793F-89BA2C936B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{80AD6D6A-D5B5-7A42-793F-89BA2C936B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80AD6D6A-D5B5-7A42-793F-89BA2C936B22}.Release|Any CPU.ActiveCfg = Release|Any CPU

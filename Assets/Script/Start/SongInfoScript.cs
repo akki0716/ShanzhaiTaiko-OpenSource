@@ -19,7 +19,7 @@ public class SongInfoScript : MonoBehaviour
 
     public Text Text1;
     public Image Image;
-    public SpriteRenderer Pic;
+    public Image Pic;
     public Animator Animator;
     public GameObject SelectedFrame;
     public Sprite[] Sprites;
