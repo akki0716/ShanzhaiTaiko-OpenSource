@@ -811,9 +811,6 @@
     <Reference Include="UnityEngine.Purchasing.Stores">
       <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.Stores.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.AI.Navigation">
-      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
       <HintPath>Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
@@ -862,6 +859,9 @@
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
       <HintPath>Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
@@ -895,11 +895,11 @@
     <Reference Include="Unity.Services.Core.Analytics">
       <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.AI.Navigation.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
@@ -923,10 +923,6 @@
       <Project>{8F1D64FC-EEE1-49EF-EA61-B138FB8274CE}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="Hierarchy2.Runtime.csproj">
-      <Project>{EE4355F2-C65D-DDF0-2597-574EFF98320F}</Project>
-      <Name>Hierarchy2.Runtime</Name>
-    </ProjectReference>
     <ProjectReference Include="Hierarchy2.Editor.csproj">
       <Project>{0C3C9DF3-776E-7884-D184-4B1B1E82C1B3}</Project>
       <Name>Hierarchy2.Editor</Name>
@@ -938,6 +934,10 @@
     <ProjectReference Include="UnityFx.Outline.csproj">
       <Project>{80AD6D6A-D5B5-7A42-793F-89BA2C936B22}</Project>
       <Name>UnityFx.Outline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Hierarchy2.Runtime.csproj">
+      <Project>{EE4355F2-C65D-DDF0-2597-574EFF98320F}</Project>
+      <Name>Hierarchy2.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -14,6 +14,7 @@ public class kickBack : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
+            Debug.Log("kickback LoadingStart");
             SceneManager.LoadScene("LoadingStart");
         }
         else if (Instance != this)
