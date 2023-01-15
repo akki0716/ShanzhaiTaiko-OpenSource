@@ -69,6 +69,7 @@
     <Compile Include="Assets\editor\CriWare\CriWareInitializerEditor.cs" />
     <Compile Include="Assets\OutLineSamples\Tests\Editor\Scripts\OutlineBehaviourTests.cs" />
     <Compile Include="Assets\editor\CriWare\CriAtom\CriAtomEditor.cs" />
+    <Compile Include="Assets\BookmarkEverything\Editor\IOHelper.cs" />
     <Compile Include="Assets\editor\CriWare\CriAtom\CriAtomTransceiverEditor.cs" />
     <Compile Include="Assets\editor\CriWare\CriMana\Extension\CriManaTimelineDrawer.cs" />
     <Compile Include="Assets\editor\CriWare\CriWareEditor.cs" />
@@ -79,8 +80,10 @@
     <Compile Include="Assets\editor\CriWare\CriWareErrorHandlerEditor.cs" />
     <Compile Include="Assets\editor\CriWare\CriMana\CriManaMovieControllerForUIEditor.cs" />
     <Compile Include="Assets\editor\CriWare\CriMana\CriManaMovieMaterialEditor.cs" />
+    <Compile Include="Assets\BookmarkEverything\Editor\EntryDataGUIDComparer.cs" />
     <Compile Include="Assets\editor\CriWare\CriAtom\CriAtomListenerEditor.cs" />
     <Compile Include="Assets\editor\CriWare\CriWareBuildPreprocessor.cs" />
+    <Compile Include="Assets\BookmarkEverything\Editor\BookmarkEverythingEditor.cs" />
     <Compile Include="Assets\codeandweb.com\Editor\SpritesheetImporter.cs" />
     <Compile Include="Assets\editor\BuildBundleAndroid.cs" />
     <Compile Include="Assets\editor\CriWare\CriProfilerEditor.cs" />
