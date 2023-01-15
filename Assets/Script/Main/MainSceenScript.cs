@@ -118,6 +118,9 @@ public class MainSceenScript : MonoBehaviour
                     case 3:
                         scene = "Resolution";
                         break;
+                    case 5:
+                        scene = "SongSelect_bk";
+                        break;
                     default:
                         scene = "SongSelect";
                         break;

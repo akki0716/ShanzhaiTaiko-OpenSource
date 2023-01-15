@@ -48,8 +48,8 @@
   },
   "Special": 0,
   "ScoreMode": 0,
-  "LastPlay": "A Perfect Sky",
-  "LastDiff": 4,
+  "LastPlay": "HANABI",
+  "LastDiff": 3,
   "SortColor": {
     "0": {
       "Title": "J-POP",
@@ -102,7 +102,9 @@
     "SubTitle": "",
     "Color": "#FF9797"
   },
-  "Favorites": [],
+  "Favorites": [
+    "A Perfect Sky"
+  ],
   "Emotion": null,
   "Body": null,
   "Head": null,
@@ -119,6 +121,7 @@
   "Outline": false,
   "Presets": {},
   "PlayList": [
-    "A Perfect Sky"
+    "A Perfect Sky",
+    "HANABI"
   ]
 }
